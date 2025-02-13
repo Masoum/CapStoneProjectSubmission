@@ -7,7 +7,7 @@ The csv file is inside the Data Folder.
 
 This repository contains an analysis of a dataset focused on predicting the presence of Alzheimer’s disease based on various features, including demographic information, cognitive test scores, and other clinical measurements. Alzheimer's disease is a progressive neurological condition that affects memory, thinking, and behavior. Early diagnosis is crucial for providing patients with the best quality of care and intervention strategies.
 
-The dataset contains several attributes, such as age, gender, cognitive scores, and education, that are used to determine whether a person has Alzheimer's disease or not. This project aims to perform exploratory data analysis (EDA), create visualizations, and build machine learning models to predict Alzheimer’s disease.
+The dataset contains several attributes, such as age, gender, cognitive scores, and education level, that are used to determine whether a person has Alzheimer's disease or not. This project aims to perform exploratory data analysis (EDA), create visualizations of the data.
 
 ## Dataset Description
 
@@ -17,12 +17,11 @@ The dataset includes the following key columns:
 - **Gender**: Gender of the individual (binary: 0 = Male, 1 = Female).
 - **Education Level**: Years of education.
 - **Cognitive Test Score**: A score representing the individual’s cognitive performance.
-- **MMSE Score**: Mini-Mental State Examination score, a commonly used test for evaluating cognitive function.
 - **Alzheimer’s Diagnosis**: Target variable indicating whether the individual has Alzheimer’s disease (1 = Alzheimer’s, 0 = No Alzheimer’s).
 
 ### Target Variable
 
-The **target variable** in this analysis is `Diagnosis`, which is a binary classification of whether or not a person has Alzheimer’s disease.
+The **target variable** in this analysis is `Alzheimers Diagnosis`, which is a binary classification of whether or not a person has Alzheimer’s disease.
 
 ## Analysis and Visualizations
 
@@ -49,7 +48,7 @@ Feature engineering techniques were applied to better prepare the dataset for ma
 
 ## Results and Insights
 
-- **Feature Importance**: We observed that certain features like `Cognitive Test Score` and `MMSE Score` had high importance in predicting Alzheimer's disease.
+- **Feature Importance**: We observed that certain features like `Cognitive Test Score` had high importance in predicting Alzheimer's disease.
 - **Age Factor**: Age was a significant feature, with older individuals showing a higher likelihood of Alzheimer's disease.
 - **Gender Distribution**: There may be slight variations between male and female patients, though the disease affects both genders.
   
